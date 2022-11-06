@@ -10,7 +10,7 @@ We will sample as many Wongs as possible, and approximate
 the ratio of the Wongs that have 2 boys to all the Wongs we sample.
 
 ## Implementation
-- `main.py` contains the program client
+- `main.py` contains the program client.
 - `sequential.py` contains the core classes: `SampleNormalWongs` and `SampleOldestWong`.
 - `parallel.py` provides the parallelized versions of the sequential classes.
 
@@ -19,6 +19,7 @@ the ratio of the Wongs that have 2 boys to all the Wongs we sample.
 ### 1. Try running the code!
 
 Note: The default classes used for simulation are the sequential classes. You don't need to change anything.
+
 0. From terminal, run `python3 main.py`.
 1. Enter number of samples and the kind of Wong (normal or oldest).
 2. Repeat, or terminate the program by pressing `Ctrl + C`.
