@@ -16,7 +16,7 @@ the ratio of the Wongs that have 2 boys to all the Wongs we sample.
 
 ## Exercise
 
-### 1. Try running the code!
+### 0. Try running the code!
 
 Note: The default classes used for simulation are the sequential classes. You don't need to change anything.
 
@@ -24,7 +24,7 @@ Note: The default classes used for simulation are the sequential classes. You do
 1. Enter number of samples and the kind of Wong (normal or oldest).
 2. Repeat, or terminate the program by pressing `Ctrl + C`.
 
-### 2. Inspect the codes
+### 1. Inspect the codes
 
 0. Vim `sequential.py` or open it in your favorite IDE.
 1. How are the classes structured? What is inheritance doing here?
@@ -33,9 +33,11 @@ Note: The default classes used for simulation are the sequential classes. You do
 4. What is `__post_init__`? What is `__str__`? (They are called magic methods or dunder methods in Python.)
 5. What is an `f`-string?
 
-### 3. Performance Problems & Multiprocessing
+### 2. Performance Problems & Multiprocessing
 
-Python is notoriously slow. Try it for yourself! Simulate 1_000_000 samples. How long does it take? Extrapolate the result for 1_000_000_000 samples.
+Python is notoriously slow. Try it for yourself! 
+
+First, simulate 1_000_000 samples. How long does it take? (You can use cmd `time` to precisely time the program.) Extrapolate the result for 1_000_000_000 samples.
 
 0. Inspect `parallel.py`.
 1. What is `Pool()`? What is it doing here?
